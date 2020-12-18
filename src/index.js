@@ -62,10 +62,10 @@ function App() {
                     <Chart/>
                 </div>
 
-                <div>
+                <div style={{marginTop:'5vh'}}>
                     <h1>도시 리스트 출력</h1>
 
-                    <table border="0">
+                    <table border="0" style={{margin: 'auto'}}>
                         <td>
                         {arrayCity.map(value => <tr style={{border: '0'}}>{value}</tr>)}
                         </td>

@@ -5,18 +5,19 @@
     padding: 20px;
     height: 30px;
     z-index: 1;
-
+    background: linear-gradient( to left, red 40%,white );
     display: flex;
     justify-content: space-between;
-    background: linear-gradient( to left, blue,red );
+
     transition-timing-function: ease-in;
     transition: all 0.5s;
 }
 
-.nav__transparent{
+.nav__black{
+    background-color: grey;
     opacity: 0.2;
-}
 
+}
 .nav__logo{
     position: fixed;
     left:10px;
