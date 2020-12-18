@@ -63,7 +63,7 @@ function App() {
                 </div>
 
                 <div style={{marginTop:'5vh'}}>
-                    <h1>도시 리스트 출력</h1>
+                    <h1>사용 데이터 출력</h1>
 
                     <table border="0" style={{margin: 'auto'}}>
                         <td>
